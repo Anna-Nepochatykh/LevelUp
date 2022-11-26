@@ -1,0 +1,29 @@
+.promo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.promo__person {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.promo__subscribe {
+    text-align: justify;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.promo__specific {
+    ul {
+        display: flex;
+        font-size: 18px;
+        align-items: center;
+
+        & > * + * {
+            margin-left: 50px;
+        }
+    }
+}

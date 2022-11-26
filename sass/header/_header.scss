@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__title {
+    margin-bottom: 35px;
+    font-size: 44px;
+    text-align: center;
+}
+
+.header__product {
+    display: flex;
+    justify-content: center;
+
+    & > * + * {
+        margin-left: 20px;
+    }
+
+    &-img {
+        max-width: 200px;
+    }
+}
+
+.header__specific {
+    font-size: 26px;
+    max-width: 300px;
+    text-align: center;
+
+    li {
+        margin-bottom: 15px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.formOrder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	margin-top: 150px;
+}
+
+.formOrder__nameproduct {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.formOrder__timer {
+    font-size: 25px;
+}
+
+.formOrder__anketa {
+    display: flex;
+}
+
+.formOrder__anketa-photoproduct {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    max-width: 200px;
+}
+
+.formOrder__anketa-price {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+
+    & > * + * {
+        margin-left: 10px;
+    }
+}
+
+.formOrder__anketa-priceold {
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+    text-decoration: line-through;
+}
+
+.formOrder__anketa-pricenew {
+    font-size: 18px;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: rgb(79, 231, 79);
+    }
+}
+
+.formOrder__anketa-personinf {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.formOrder__anketa-personinf-user {
+    font-size: 14px;
+    padding: 20px 0 20px 20px;
+    margin-bottom: 15px;
+}
+
+.formOrder__anketa-personinf-envelope {
+    font-size: 14px;
+    padding: 20px 0 20px 20px;
+    margin-bottom: 15px;
+}

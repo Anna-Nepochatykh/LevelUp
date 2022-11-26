@@ -1,0 +1,315 @@
+@media (max-width: 1024px) {
+  .header__title {
+    font-size: 34px;
+  }
+
+  .header__specific {
+    font-size: 24px;
+  }
+
+  .reviews-wrap {
+    margin-top: 120px;
+  }
+
+  .promo {
+    margin-top: 120px;
+  }
+
+  .formOrder {
+    margin-top: 120px;
+  }
+}
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 26px;
+  }
+
+  .header__product-img {
+    max-width: 150px;
+  }
+
+  .header__specific {
+    font-size: 16px;
+  }
+
+  .buttons {
+    font-size: 16px;
+  }
+
+  .productComposition__ingredient {
+    max-width: 150px;
+  }
+  .productComposition__ingredient p {
+    font-size: 14px;
+  }
+
+  .productComposition__prod {
+    max-width: 150px;
+  }
+
+  .reviews-wrap {
+    margin-top: 90px;
+  }
+
+  .promo {
+    margin-top: 90px;
+  }
+
+  .promo__person-img {
+    max-width: 300px;
+  }
+
+  .promo__subscribe {
+    font-size: 14px;
+  }
+
+  .promo__specific ul {
+    font-size: 13px;
+  }
+
+  .formOrder {
+    margin-top: 90px;
+  }
+
+  .formOrder__nameproduct {
+    font-size: 20px;
+  }
+
+  .formOrder__timer {
+    font-size: 20px;
+  }
+
+  .formOrder__anketa-photoproduct {
+    max-width: 150px;
+  }
+
+  .formOrder__anketa-priceold {
+    font-size: 12px;
+  }
+
+  .formOrder__anketa-pricenew {
+    font-size: 14px;
+  }
+
+  .formOrder__anketa-personinf {
+    font-size: 16px;
+  }
+
+  .formOrder__anketa-personinf-user {
+    padding: 10px 0 10px 10px;
+  }
+
+  .formOrder__anketa-personinf-envelope {
+    padding: 10px 0 10px 10px;
+  }
+}
+@media (max-width: 426px) {
+  .productComposition__ingredient {
+    max-width: 100px;
+  }
+  .productComposition__ingredient p {
+    font-size: 12px;
+  }
+
+  .productComposition__prod {
+    max-width: 100px;
+  }
+
+  .prod {
+    margin-left: 35%;
+  }
+
+  .reviews-wrap {
+    margin-top: 60px;
+  }
+
+  .reviews p {
+    font-size: 14px;
+    padding: 10px 10px 0;
+  }
+
+  .promo {
+    margin-top: 60px;
+  }
+
+  .promo__person-img {
+    margin: auto 0;
+    max-width: 200px;
+    height: 200px;
+  }
+
+  .promo__subscribe {
+    font-size: 10px;
+  }
+
+  .promo__specific ul {
+    font-size: 10px;
+  }
+  .promo__specific ul > * + * {
+    margin-left: 10px;
+  }
+
+  .formOrder {
+    margin-top: 60px;
+  }
+
+  .formOrder__nameproduct {
+    font-size: 16px;
+  }
+
+  .formOrder__timer {
+    font-size: 16px;
+  }
+
+  .colon::before, .colon::after {
+    top: 5px;
+  }
+  .colon::after {
+    top: 12px;
+  }
+
+  .formOrder__anketa-photoproduct {
+    margin-right: 50px;
+  }
+
+  .formOrder__anketa-personinf {
+    font-size: 14px;
+  }
+
+  .formOrder__anketa-personinf-user {
+    font-size: 12px;
+    padding: 10px 0 10px 10px;
+  }
+
+  .formOrder__anketa-personinf-envelope {
+    font-size: 12px;
+    padding: 10px 0 10px 10px;
+  }
+
+  .buttons p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 376px) {
+  .productComposition__ingredient {
+    max-width: 90px;
+  }
+
+  .promo__person {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .promo__person-img {
+    margin: 0 auto;
+  }
+
+  .promo__subscribe {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .promo__specific ul {
+    font-size: 10px;
+  }
+
+  .small {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .header__title {
+    font-size: 20px;
+  }
+
+  .header__product-img {
+    max-width: 120px;
+  }
+
+  .header__specific {
+    font-size: 12px;
+  }
+
+  .productComposition__ingredient {
+    max-width: 80px;
+  }
+  .productComposition__ingredient p {
+    font-size: 10px;
+  }
+
+  .productComposition__prod {
+    max-width: 80px;
+  }
+
+  .reviews-wrap {
+    margin-top: 40px;
+  }
+
+  .reviews p {
+    font-size: 10px;
+  }
+
+  .promo {
+    margin-top: 40px;
+  }
+
+  .promo__person {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .promo__person-img {
+    margin: 0 auto;
+  }
+
+  .promo__subscribe {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .promo__specific ul {
+    font-size: 8px;
+  }
+
+  .small {
+    font-size: 10px;
+  }
+
+  .formOrder {
+    margin-top: 40px;
+  }
+
+  .formOrder__anketa-photoproduct {
+    margin-right: 30px;
+  }
+
+  .formOrder__anketa-priceold {
+    font-size: 10px;
+  }
+
+  .formOrder__anketa-pricenew {
+    font-size: 10px;
+  }
+
+  .formOrder__anketa-personinf {
+    font-size: 12px;
+  }
+
+  .formOrder__anketa-personinf-user {
+    font-size: 10px;
+    padding: 5px 0 5px 5px;
+  }
+
+  .formOrder__anketa-personinf-envelope {
+    font-size: 10px;
+    padding: 5px 0 5px 5px;
+  }
+
+  .buttons p {
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
